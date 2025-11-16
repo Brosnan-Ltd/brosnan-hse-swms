@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="../brosnan_fav.png" rel="shortcut icon" type="image/x-icon">
+  <title>Brosnan Employee Benefits</title>
+  <meta name="description" content="Quick links to Brosnan staff benefits documents and services." />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --link: #38bdf8;
+      --focus: #f59e0b;
+      --border: #1f2937;
+      --cardHover: #0b1220;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --link: #0369a1;
+        --focus: #b45309;
+        --border: #e5e7eb;
+        --cardHover: #f1f5f9;
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: radial-gradient(1200px 600px at 10% 0%, rgba(56,189,248,0.10), transparent),
+                  radial-gradient(1200px 600px at 90% 100%, rgba(245,158,11,0.10), transparent),
+                  var(--bg);
+      color: var(--text);
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header { padding: 2rem 1rem 0.5rem; text-align: center; }
+    header img {
+      width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    h1 { margin: 0 0 0.25rem; font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem); letter-spacing: 0.2px; }
+    p.lead { margin: 0 auto; max-width: 60ch; color: var(--muted); font-size: clamp(0.95rem, 0.4vw + 0.8rem, 1.05rem); }
+
+    .container { width: min(840px, 100%); margin: 1.25rem auto 2.5rem; padding: 0 1rem 2rem; }
+    .list { display: grid; gap: 0.75rem; }
+
+    .item {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.9rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.95rem 1.1rem;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 120ms ease, background 120ms ease, box-shadow 120ms ease;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .item:hover { transform: translateY(-1px); background: var(--cardHover); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+    .item:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+    .icon { width: 22px; height: 22px; opacity: 0.9; }
+    .title { font-weight: 600; font-size: 1rem; }
+    .meta { color: var(--muted); font-size: 0.8rem; }
+    .chev { width: 18px; height: 18px; opacity: 0.7; }
+
+    /* Sub-items inside a grouped item */
+    .sublist { display: grid; gap: 0.6rem; margin-top: 0.5rem; }
+    .subitem {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 0.6rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.7rem 0.9rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    .subitem:hover { background: var(--cardHover); }
+    .subitem .icon { width: 18px; height: 18px; }
+    .subitem .title { font-size: 0.95rem; }
+    .subitem .meta { font-size: 0.78rem; }
+
+    footer { color: var(--muted); text-align: center; padding: 1.25rem; font-size: 0.9rem; }
+
+    @media (max-width: 480px) {
+      .item { padding: 1.05rem 1.15rem; }
+      .title { font-size: 1.02rem; }
+      header img { width: 90px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="../brosnan_logo.png" alt="Brosnan logo" />
+      <h1>Brosnan Employee Benefits</h1>
+    </header>
+
+    <main class="container" role="main">
+      <nav aria-label="Benefits links" class="list">
+        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/AON%20Protection%20Insurance%20FAQ" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+          <div>
+            <div class="title">Life, Trauma, Income and Child trauma insurance - AON Protection Insurance</div>
+            <div class="meta">FAQ booklet covering information on employee protection insurance.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Asteron%20Life%20Connected%20Care.pdf" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+          <div>
+            <div class="title">Employee wellbeing - Asteron Life Connected Care</div>
+            <div class="meta">Free wellbeing service for employees and their families, Connected Care offers support for medical, mental health, fitness and nutrition.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Boost%20Flyer" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+          <div>
+            <div class="title">Employee Discounts - Boost</div>
+            <div class="meta">Discounts and offers from over 50 of New Zealand’s favourite brands and stores.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+
+        <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/EAP%20Poster.pdf" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+          <div>
+            <div class="title">Employee Assistance Program (EAP)</div>
+            <div class="meta">EAPs provide free, confidential counseling and support services to employees and their families. These programs typically cover areas like mental health, stress, substance abuse, financial concerns, family issues, and legal advice.</div>
+          </div>
+          <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+
+        <div class="item" role="group" aria-labelledby="health-insurance">
+            
+          <div>
+            <div class="title" id="health-insurance">Health Insurance</div>
+            <div class="sublist">
+              <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Wellbeing%20One%20Benefit%20Summary.pdf" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+                <div>
+                  <div class="title">Summary</div>
+                  <div class="meta">This document provides a summary of the benefits offered under Wellbeing One - the Health Insurance benefit provided to Permanent Brosnan Employees.</div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+              </a>
+              <a class="item" href="https://brosnantraining.blob.core.windows.net/content/Benefits/Southern%20Cross%20Wellbeing%20One%20Policy%20Document.pdf" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 6h5l-5-5v5Z"/></svg>
+                <div>
+                  <div class="title">Policy Document</div>
+                  <div class="meta">This document covers what is included in your coverage, what the plan doesn't cover, how to make a claim and other questions you may have around this benefit.</div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" fill="currentColor"><path d="M9 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </main>
+
+    <footer>
+      <span>© <span id="y"></span> Brosnan Ltd. Resources open in a new tab.</span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // Hide header if ?unbranded=1 is in the query string
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('unbranded') === '1') {
+      ['header', 'footer'].forEach(sel => {
+        const el = document.querySelector(sel);
+        if (el) el.style.display = 'none';
+      });
+    }
+    
+  </script>
+</body>
+</html>
