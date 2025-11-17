@@ -5,7 +5,8 @@ nav_order: 3
 doc-number: POL-000002
 ---
 
-# POL-000002: Appearance and Dress Standards {: .label .label-green}
+# POL-000002: Appearance and Dress Standards 
+{: .label .label-green}
 
 ## 3.1 Purpose and Scope
 
