@@ -1,3 +1,8 @@
+---
+title: Company Overview
+parent: Policies  # Matches the parent's title exactly
+nav_order: 1  # Order under the parent
+---
 
 # Company Overview
 
@@ -38,7 +43,7 @@ We seek to understand and deliver on the unique needs of each client. In doing t
 ### Our Values
 Taking Ownership, Developing Solutions, Building Relationships.
 
-<img src="../../brosnan_values_icons.jpg" alt="Brosnan Logo" width="auto" height="100">
+<img src="../../assets/brosnan_values_icons.jpg" alt="Brosnan values" width="600" height="80">
  
 ## About Brosnan
 Brosnan remediates, upgrades, refurbishes, and maintains existing multi-unit residential and non-residential buildings. We begin with the customer’s needs and create effective, tailored solutions for each project. Brosnan gives clients the confidence that their most valued asset is in safe hands.
