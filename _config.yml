@@ -23,5 +23,5 @@ exclude:
   - .github/
   - README.md
   - LICENSE
-  - hr-benefits
-  - hse-swms
+  - hr-benefits/index.html
+  - hse-swms/index.html
