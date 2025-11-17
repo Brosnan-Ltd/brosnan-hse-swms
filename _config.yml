@@ -8,6 +8,16 @@ plugins:
 # Optional: Add company logo
 logo: /assets/brosnan_logo.png
 
+Search_enabled: true
+search:
+  # Split pages into sections that can be searched individually
+  # Supports 1 - 6, default: 2
+  heading_level: 2
+
+nav_enabled: true
+
+heading_anchors: true
+
 # Exclude files
 exclude:
   - .github/

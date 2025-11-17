@@ -1,3 +1,9 @@
+---
+title: Code of Conduct
+parent: Policies  # Matches the parent's title exactly
+nav_order: 2  # Order under the parent
+---
+
 # Code of Conduct Policy
 
 ## 2.1	Purpose and Scope
