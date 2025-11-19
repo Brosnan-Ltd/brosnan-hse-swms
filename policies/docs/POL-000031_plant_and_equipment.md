@@ -129,7 +129,7 @@ flowchart TD
 
 | **Request Information**                                                               | Values                    |
 |-----------------------	                                                            | --------------------------|
-| Date requested                                                                        | _dd-MMM-yy                |
+| Date requested                                                                        | _dd-MMM-yy_                |
 | Date item required                                                                    | _dd-MMM-yy_               |
 | Name of requestor                                                                     | _Name_                    |
 | Manager of requestor                                                              	| _Manager_                 |
@@ -165,30 +165,28 @@ flowchart TD
 
 **Please attach any pertinent documents, e.g., police reports and photos.**
 
-Date: _dd-MMM-yy_
-	
-Name: ____________________________________________________________
-
-Plant Number and Name:____________________________________________
+Date: 
+  
+Name: 
+  
+Plant Number and Name:  
  
-Details/ Comments (Where was it last seen, where was it misplaced from, what happened, etc.)
-____________________________________________________________________________________
+Details/ Comments (Where was it last seen, where was it misplaced from, what happened, etc.):  
+<div style="height:100px"> </div>
+
+    
 
 
-{: .lookatme}
+
+--------------------
 Signed (Project Manager)
-> 
->
+
 
 _This form should also be submitted to the relevant Regional Manager and, in cases of lost or stolen plant, to Finance._
 
 
-<iframe src=".\pol_assests\3rd Test policy.pdf" 
-        width="100%" 
-        height="800px" 
-        style="border: none;">
-        
-</iframe>
+--------------------
+
 
 <iframe src="../pol_assests/3rd Test policy.pdf#zoom=100" 
         width="100%" 
