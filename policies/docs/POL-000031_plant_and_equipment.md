@@ -46,6 +46,7 @@ If any plant is lost, stolen, or damaged, an Incident Report is to be completed 
 ## 32.7 Flowchart
 
 ```mermaid
+
 flowchart TD
     A[Requirement identified]
 
@@ -126,39 +127,39 @@ flowchart TD
 
 **Send to Finance:**
 
-| Request Information |                        |
-|---------------------|---------|
-| Date requested | _dd-MMM-yy_ |
-| Date item required |  _dd-MMM-yy_ |
-| Name of requestor |  _Name_ |
-| Manager of requestor | _Manager_ |
-| What business unit will acquire the item? | _Business unit name_ |
-| What project will the item be for initially? | _Project_ |
-| Is the item likely to be used on another project as well? | _No/Yes, Project X_ |
-| Have you confirmed requirement for risk assessment with Group HSE & Risk Manager?  | _Yes/No, reason for no_ |
-|||
-|||
-**Item Information**
-| Classification |  _Enter_ |
-| Make |  _Enter_ |
-|Model |  _Enter_ |
-| Description  |  _Enter_ |
-| Estimated useful life (years) |  _Enter_ |
-| Estimated utilisation (what % of time will it be in use?) |  _Enter_ |
-| Estimated annual maintenance costs |  _Enter_ |
-| Estimated annual licencing/subscription or related costs |  _Enter_ |
-|||
-|||
-**Other information**
-| Why is this item needed?	| _Enter_ |
-| Is there an alternative to achieve the function? | _Enter_ |
-| Alternative Options available | _(e.g., Hire)_ |
-| Estimated annual cost	| |
-| _Example: Hire from Hirepool for the project duration_ | _2,000_ |
-| _Item 2_ | _$_ |
-| Supplier information (2 x quotes required) | _Quote_ |
-Other comments:
-
+| **Request Information**   | Values                           	    |
+|-----------------------	| ----------------------------------	|
+| Date requested            |                                                                     	| _dd-MMM-yy_                      	|
+| Date item required        |                                                                 	| _dd-MMM-yy_                      	|
+| Name of requestor         |                                                                  	| _Name_                           	|
+|                       	| Manager of requestor                                                              	| _Manager_                        	|
+|                       	| What business unit will acquire the item?                                         	| _Business unit name_             	|
+|                       	| What project will the item be for initially?                                      	| _Project_                        	|
+|                       	| Is the item likely to be used on another project as well?                         	| _No/Yes, Project X_              	|
+|                       	| Have you confirmed requirement for risk assessment with Group HSE & Risk Manager? 	| _Yes/No, reason for no_          	|
+|                       	|                                                                                   	|                                  	|
+|                       	|                                                                                   	|                                  	|
+| **Item Information**  	|                                                                                   	|                                  	|
+|                       	| Classification                                                                    	| _Enter_                          	|
+|                       	| Make                                                                              	| _Enter_                          	|
+|                       	| Model                                                                             	| _Enter_                          	|
+|                       	| Description                                                                       	| _Enter_                          	|
+|                       	| Estimated useful life (years)                                                     	| _Enter_                          	|
+|                       	| Estimated utilisation (what % of time will it be in use?)                         	| _Enter_                          	|
+|                       	| Estimated annual maintenance costs                                                	| _Enter_                          	|
+|                       	| Estimated annual licencing/subscription or related costs                          	| _Enter_                          	|
+|                       	|                                                                                   	|                                  	|
+|                       	|                                                                                   	|                                  	|
+| **Other information** 	|                                                                                   	|                                  	|
+|                       	| Why is this item needed?                                                          	| _Enter_                          	|
+|                       	| Is there an alternative to achieve the function?                                  	| _Enter_                          	|
+|                       	| Alternative Options available                                                     	| _(e.g., Hire)_                   	|
+|                       	| Estimated annual cost                                                             	|                                  	|
+|                       	| _Example: Hire from Hirepool for the project duration_                            	| _2,000_                          	|
+|                       	| _Item 2_                                                                          	| _$_                              	|
+|                       	| Supplier information (2 x quotes required)                                        	| _Quote_                          	|
+|                       	|                                                                                   	|                                  	|
+| **Other comments:**       |                                                                                       |                                   |
 
 ## 32.9 Incident Report
 
@@ -176,7 +177,10 @@ Details/ Comments (Where was it last seen, where was it misplaced from, what hap
 ____________________________________________________________________________________
 
 
-________________________________________Signed (Project Manager):
+{: .lookatme}
+Signed (Project Manager)
+> 
+>
 
 _This form should also be submitted to the relevant Regional Manager and, in cases of lost or stolen plant, to Finance._
 
