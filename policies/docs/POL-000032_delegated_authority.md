@@ -1,6 +1,6 @@
 ---
 title: Delegated Authority | POL-000032
-parent: Policies  
+# parent: Policies  
 nav_order: 33
 ---
 

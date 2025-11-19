@@ -1,6 +1,6 @@
 ---
 title: Sponsorship | POL-000044
-parent: Policies  
+# parent: Policies  
 nav_order: 45
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Appearance and Dress Standards | POL-000002
-parent: Policies
+# parent: Policies
 nav_order: 3
 ---
 

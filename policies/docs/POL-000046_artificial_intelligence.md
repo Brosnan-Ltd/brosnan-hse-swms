@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence | POL-000047
-parent: Policies  
+# parent: Policies  
 nav_order: 48
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Disciplinary | POL-000016
-parent: Policies  # Matches the parent's title exactly
+# parent: Policies  # Matches the parent's title exactly
 nav_order: 17  # Order under the parent
 ---
 

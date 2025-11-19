@@ -1,6 +1,6 @@
 ---
 title: Performance and Feedback | POL-000006
-parent: Policies 
+# parent: Policies 
 nav_order: 7
 ---
 

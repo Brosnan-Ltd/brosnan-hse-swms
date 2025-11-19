@@ -1,6 +1,6 @@
 ---
 title: Renumeration | POL-000046
-parent: Policies  
+# parent: Policies  
 nav_order: 47
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Media and Public Relations | POL-000034
-parent: Policies  
+# parent: Policies  
 nav_order: 35
 ---
 

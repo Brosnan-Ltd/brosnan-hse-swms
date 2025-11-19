@@ -1,6 +1,6 @@
 ---
 title: Compliants and Grievances | POL-000041
-parent: Policies  
+# parent: Policies  
 nav_order: 42
 ---
 

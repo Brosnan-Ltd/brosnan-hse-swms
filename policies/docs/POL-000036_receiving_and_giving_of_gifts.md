@@ -1,6 +1,6 @@
 ---
 title: Receiving and Giving of Gifts | POL-000036
-parent: Policies  
+# parent: Policies  
 nav_order: 37
 ---
 
