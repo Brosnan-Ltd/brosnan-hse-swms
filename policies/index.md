@@ -1,7 +1,8 @@
 ---
 title: Policies
-has_children: true  # Indicates this page has sub-pages
-nav_order: 1  # Position in the sidebar (lower numbers first)
+has_children: true  
+nav_order: 1
+layout: minimal
 ---
 
 #  Policies                           

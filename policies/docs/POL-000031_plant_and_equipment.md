@@ -9,55 +9,179 @@ POL-000031
 
 # Plant & Equipment
 
-## 32.1 Purpose  
-To ensure all plant, machinery, and equipment (collectively “plant”) owned, hired, or used by Brosnan is operated safely, maintained in good condition, and used only by authorised and competent persons.
+## 32.1 Purpose and Scope
 
-## 32.2 Scope  
-This policy applies to all employees, contractors, and subcontractors who operate, maintain, or work near any plant or equipment on Brosnan sites or premises. This includes (but is not limited to) excavators, cranes, elevated work platforms (EWPs), forklifts, scissorlifts, telehandlers, generators, compressors, and portable power tools.
+This policy outlines the key principles and approaches to plant & equipment management. All Employees of the Company must ensure that plant & equipment are effectively and sustainably managed at the optimal whole of lifecycle cost, along with minimisation of waste.
 
-## 32.3 Operator Requirements  
-No person may operate plant unless they:  
-- Hold a current, valid licence or certificate of competence for that item of plant (where required by law)  
-- Have completed Brosnan’s site-specific induction and plant familiarisation  
-- Have been formally authorised in writing by their supervisor or the Plant Coordinator  
-- Are wearing the correct PPE for the task  
+## 32.2 Definition of Plant and Equipment
 
-Evidence of licences/certificates must be verified and recorded before first use.
+Plant and equipment are any items purchased that will not be immediately consumed on use and will be used over several projects. Common examples are electrical tools, lifeguards, hoardings, scaffolding, ladders, shovels, etc.
 
-## 32.4 Pre-Start Checks and Maintenance  
-Every operator must complete a daily pre-start inspection using the approved checklist (paper or app).  
-Any defects or faults must be reported immediately and the item tagged “Out of Service” until repaired.  
-Scheduled servicing and maintenance is arranged by the Plant Coordinator or site foreman – operators must present plant when due.
+{: .highlight-title}
+*PROCEDURES*: <inc>SharePoint/Library/Procedures</inc>: flowchart, business case, expenditure, and incident report.
 
-## 32.5 Safe Operating Rules  
-All operators must:  
-- Only operate plant they are authorised and competent to use  
-- Never leave plant running unattended  
-- Lower all blades, buckets, and booms when not in use  
-- Use spotters when visibility is restricted  
-- Keep clear of swing radii and crush zones  
-- Never carry passengers unless the plant has an approved passenger seat  
-- Comply with all site traffic management plans  
-- Stop immediately if unsafe conditions arise
+## 32.3Entry into CAT Projects
 
-## 32.6 Hiring of Plant  
-- All hired plant must come with current registration, maintenance records, and operator manuals  
-- Hired plant must be inspected on delivery and before first use  
-- Hire agreements remain the responsibility of the site manager or Plant Coordinator
+All plant and equipment purchased are to be registered in CAT Projects as managed plant and ‘hired’ to projects as required. The only exception is items that are purchased specifically for use on a project which is not expected to have a life beyond that project – in these cases, the full purchase price will be charged to the project as a standard construction cost.
 
-## 32.7 Modifications and Attachments  
-No modifications, alterations, or non-standard attachments may be made to any plant without written approval from the Plant Coordinator and, where required, the manufacturer.
+Note that before purchase, the Initiator of the request should confirm if there is a requirement for a risk assessment with the Group HSE & Risk Manager.
 
-## 32.8 Incident Reporting  
-Any incident involving plant (collision, near miss, rollover, damage, or injury) must be reported immediately to the site supervisor and an Incident Report completed within 24 hours.
+Further to this, any item of plant over $3,000 in value requires a business case to be submitted to the GM Finance for sign-off before purchase, as per the Delegated Authority Policy (DAP). Please contact Finance to complete a business case and acquire approval from the GM Finance.
 
-## 32.9 Consequences of Breach  
-Unauthorised or unsafe operation of plant will be treated as serious misconduct and may result in:  
-- Immediate removal from operating duties  
-- Disciplinary action up to and including termination  
-- Personal liability for damage or repair costs
+Each region has a staff member fulfilling the function of a Plant Manager – if an employee is unsure of who this person is they should consult their manager. Before any item of plant is purchased, the Plant Manager is to ensure there is not already an available item of plant that can meet the need, or a suitable alternative to purchase.
 
-## 32.10 Plant Register and Audits  
-A central register of all owned and long-term hired plant is maintained by the Plant Coordinator. Regular audits and safety inspections will be conducted.
+## 32.4 Plant Repairs & Maintenance
 
-Safety is non-negotiable – if in doubt, stop and ask.
+If an item of the plant requires repair or maintenance, the Plant Manager must be consulted before repair. This enables visibility of how frequently an item is failing and if it may need replacement. It also allows the identification of any repairs that might be under warranty.
+
+## 32.5 Disposing of Plant
+
+The CCO and GM Finance are the sole authority for the disposal of the plant. Any defective plant deemed non- repairable will be referred to the Plant Manager, who will determine whether it is to be repaired or disposed of and consult the CCO and GM Finance if the disposal is recommended. This includes loss of plant as per the plant & equipment procedure.
+
+## 32.6 Loss of Plant
+
+If any plant is lost, stolen, or damaged, an Incident Report is to be completed and immediately advised to the reporting employees’ manager. Instances of theft will be investigated and will require Police involvement. A copy of the Incident Report and a police report will be required to be filed with any subsequent insurance claim, so a copy should be forwarded to Finance.
+
+
+## 32.7 Flowchart
+
+```mermaid
+flowchart TD
+    A[Requirement identified]
+
+    B[Initiator raises request to Plant Manager]
+
+    C@{shape: doc, label: "Email outlining what is needed, why, when and anticipated cost. Confirm iuf there is a requirement for a risk assessment with Group HSE & Risk Manager and compelte as necessary"}
+
+    D@{shape: diam, label: "Plant Manager Supports?"} 
+
+    E@{shape: double-circle, label: "End process - advise initiator"}
+
+    F@{shape: decision, label: "Cost > $3000"}
+
+    G@{shape: doc, label: "`Complete [**business case template**](https://google.co.nz) - see fianance and below`"}
+
+    H@{shape: decision, label: "Cost > $1000"}
+
+    I@{shape: decision, label: "Life > 1 year"}
+
+    J@{shape: decision, label: "Single project life"}
+
+    J2@{shape: decision, label: "Single project life"}
+
+    K@{shape: decision, label: "Manager supports"}
+
+    L@{shape: rectangle, label: "`*Capital Item* Forward to responsible project manager per DA`"}
+
+    M@{shape: doc, label: "Complete **captital expenditure template** - see Finance (if not business case)"}
+
+    N@{shape: diamond, label: "GM Finance supports?"}
+
+    O@{shape: rectangle, label: "Initiator advised, raise PO. On receipt Plant Manager receiptrs PO, load into CAT with invoice and technical documentation, notify Finanace to apply charge ourt rates. Advise Initiator of availability"}
+
+    P@{shape: rectangle, label: "End process"}
+
+    Q@{shape: rectangle, label: "`**Non-capital item** Forward to reponsible manager per DFA`"}
+
+    R@{shape: diamond, label: "Manager supports?"}
+
+    S@{shape: rectangle, label: "`Initiator advised, raise PO. On receipt Plant Manager receipts PO, load into CAT with invoice and techical documentation, **Notify Finance** to apply charge our rates. Advise initiator of availability`"}
+
+    T@{shape: rectangle, label: "`**Project item** Forward to responsible manager poer DFA`"}
+
+    U@{shape: rectangle, label: "Not a plant item - raise against project Budget if asuuported"}
+
+
+    A --> B
+    B --> D
+    B --> C
+    D --No--> E
+    D --Yes--> F
+    F --Yes--> G
+    F --No--> H
+    H --Yes--> I
+    H --No--> J2
+    G --> I --Yes--> J
+
+    J --Yes--> T
+    J --No--> K
+
+    K --Yes--> L --> M --> N
+    K --No--> E
+
+    N --No--> P
+    N --Yes--> O --> P
+
+    J2 --Yes--> T
+    J2 --No--> Q
+
+    T --> U --> P
+
+    R --No--> E
+    R --Yes--> S --> P
+
+```
+
+## 32.8 Initial Requirements for Business Case and Capital Expenditure
+
+**Send to Finance:**
+
+| Request Information |                        |
+|---------------------|---------|
+| Date requested | _dd-MMM-yy_ |
+| Date item required |  _dd-MMM-yy_ |
+| Name of requestor |  _Name_ |
+| Manager of requestor | _Manager_ |
+| What business unit will acquire the item? | _Business unit name_ |
+| What project will the item be for initially? | _Project_ |
+| Is the item likely to be used on another project as well? | _No/Yes, Project X_ |
+| Have you confirmed requirement for risk assessment with Group HSE & Risk Manager?  | _Yes/No, reason for no_ |
+|||
+|||
+**Item Information**
+| Classification |  _Enter_ |
+| Make |  _Enter_ |
+|Model |  _Enter_ |
+| Description  |  _Enter_ |
+| Estimated useful life (years) |  _Enter_ |
+| Estimated utilisation (what % of time will it be in use?) |  _Enter_ |
+| Estimated annual maintenance costs |  _Enter_ |
+| Estimated annual licencing/subscription or related costs |  _Enter_ |
+|||
+|||
+**Other information**
+| Why is this item needed?	| _Enter_ |
+| Is there an alternative to achieve the function? | _Enter_ |
+| Alternative Options available | _(e.g., Hire)_ |
+| Estimated annual cost	| |
+| _Example: Hire from Hirepool for the project duration_ | _2,000_ |
+| _Item 2_ | _$_ |
+| Supplier information (2 x quotes required) | _Quote_ |
+Other comments:
+
+
+## 32.9 Incident Report
+
+### Missing / Damaged Plant
+
+**Please attach any pertinent documents, e.g., police reports and photos.**
+
+Date: _dd-MMM-yy_
+	
+Name: ____________________________________________________________
+
+Plant Number and Name:____________________________________________
+ 
+Details/ Comments (Where was it last seen, where was it misplaced from, what happened, etc.)
+____________________________________________________________________________________
+
+
+________________________________________Signed (Project Manager):
+
+_This form should also be submitted to the relevant Regional Manager and, in cases of lost or stolen plant, to Finance._
+
+
+
+
+
+	
